@@ -424,7 +424,16 @@ retry_rootfs_mount:
     }
   }
 
+printf("                                                              \n");
+printf("        _|  _|_|_|    _|_|_|  _|      _|  _|_|_|  _|_|_|_|_|  \n");
+printf("        _|  _|    _|    _|    _|_|    _|    _|        _|      \n");
+printf("        _|  _|_|_|      _|    _|  _|  _|    _|        _|      \n");
+printf("  _|    _|  _|    _|    _|    _|    _|_|    _|        _|      \n");
+printf("    _|_|    _|_|_|    _|_|_|  _|      _|  _|_|_|      _|      \n");
+printf("                                                              \n");
+
   puts("Closing console, goodbye!\n");
+  sleep(5);
 
   /*
     Launchd doesn't like it when the console is open already!
