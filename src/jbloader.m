@@ -15,7 +15,6 @@
 #include <mach/mach.h>
 #include <spawn.h>
 #import <Foundation/Foundation.h>
-#import <SystemConfiguration/SystemConfiguration.h>
 
 typedef void *posix_spawnattr_t;
 typedef void *posix_spawn_file_actions_t;
