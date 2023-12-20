@@ -14,7 +14,7 @@ jbinit:
 	chmod +rwx jbinit
 
 jbloader:
-	xcrun -sdk iphoneos clang -arch arm64 src/jbloader.m -o jbloader -fobjc-arc -framework Foundation -framework SystemConfiguration -framework UIKit
+	xcrun -sdk iphoneos clang -arch arm64 src/jbloader.m -o jbloader -fobjc-arc -framework Foundation
 	ldid -Sents/launchd.plist jbloader
 	chmod +rwx jbloader
 
